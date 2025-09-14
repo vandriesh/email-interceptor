@@ -277,6 +277,9 @@ importers:
 
   packages/storage:
     devDependencies:
+      '@extension/storage':
+        specifier: workspace:*
+        version: 'link:'
       '@extension/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
@@ -403,6 +406,9 @@ importers:
       '@extension/shared':
         specifier: workspace:*
         version: link:../../packages/shared
+      '@extension/storage':
+        specifier: workspace:*
+        version: link:../../packages/storage
       '@extension/ui':
         specifier: workspace:*
         version: link:../../packages/ui

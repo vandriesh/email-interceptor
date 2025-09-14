@@ -19,6 +19,7 @@ tsconfig.tsbuildinfo
 # etc
 .DS_Store
 .idea
+.git.bk
 **/.turbo
 
 # compiled
