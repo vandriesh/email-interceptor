@@ -2,9 +2,11 @@
   "trailingComma": "all",
   "semi": true,
   "singleQuote": true,
+  "jsxSingleQuote": false,
   "arrowParens": "avoid",
   "printWidth": 120,
   "bracketSameLine": true,
+  "tabWidth": 4,
   "htmlWhitespaceSensitivity": "strict",
   "plugins": [
     "prettier-plugin-tailwindcss"
